@@ -95,3 +95,13 @@ footer{
     gap: 15px;
     color: #bbbbbb;
 }
+
+.weather-place{
+    font-size: 22px;
+}
+
+.weather-avatar{
+    position: absolute;
+    top: -60px;
+    right: -15px;
+}

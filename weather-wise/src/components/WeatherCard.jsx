@@ -12,8 +12,12 @@ const WeatherCard = ({ weatherDetails }) => {
         </div>
 
         <div className="weather-info">
-          <span>Humidity: {weatherDetails.current.humidity}</span>
-          <span>Cloud: {weatherDetails.current.cloud}</span>
+          <span>
+            🌈 {weatherDetails.current.humidity}
+          </span>
+          <span>
+            ☁️ {weatherDetails.current.cloud}
+          </span>
         </div>
 
         <div className="weather-place">
